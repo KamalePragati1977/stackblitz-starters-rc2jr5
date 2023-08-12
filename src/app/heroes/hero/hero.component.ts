@@ -5,7 +5,7 @@ import { Hero } from '../../hero';
   standalone:true,
   selector:'app-hero',
   templateUrl: './hero.component.html',
-  styleUrls: ['./hero.component.css']
+  styleUrls: ['./hero.component.css'],
 })
 export class HeroComponent implements OnInit {
   @Input() hero?:Hero;
