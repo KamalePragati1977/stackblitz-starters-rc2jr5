@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: lavender; */
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+  padding: 2rem;
+  border: 1px solid black;
+}
+.heroes {
+  height: 70vh;
+  /* background-color: pink; */
+  box-shadow: 2px 2px  3px rgba(7,7,7,0.3);
+  width: 90vw;
+}
+.hero-details {
+  height: 100vh;
+  /* background-color: plum; */
+  box-shadow: 2px 2px  3px rgba(7,7,7,0.3);
+  width: 60vw;
+}
