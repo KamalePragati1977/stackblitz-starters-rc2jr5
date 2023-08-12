@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../hero';
 import { HeroDetailsComponent } from '../hero-details/hero-details.component';
@@ -9,7 +10,7 @@ import { HeroComponent } from './hero/hero.component';
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css'],
-  imports:[HeroComponent]
+  imports:[HeroComponent,CommonModule]
 })
 export class HeroesComponent implements OnInit {
   heroes: Hero[]= HEROES;
