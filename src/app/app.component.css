@@ -4,13 +4,13 @@
   /* background-color: lavender; */
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  width: 100vw;
   height: 100vh;
-  padding: 2rem;
+  /* padding: 2rem; */
   border: 1px solid black;
 }
 .heroes {
-  height: 90vh;
+  height: 50vh;
   /* background-color: pink; */
   box-shadow: 2px 2px 3px rgba(7, 7, 7, 0.3);
   width: 90vw;
